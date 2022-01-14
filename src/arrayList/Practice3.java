@@ -12,12 +12,12 @@ public class Practice3 {
         fruits.add("Strawberry");
         fruits.add("Apple");
         fruits.add("Pear");
-        fruits.add("Watermelon");
+        fruits.add("Watermelon");  //  for (String fruit : fruits ){   sout fruit}
         fruits.add("Kiwi");
 
         for (String fruit : fruits) {
 
-            System.out.println(fruit);
+            System.out.println("i am the forat print here "+fruit);
         }
         System.out.println("====This is after first for loop===");
          printFruits(fruits);
@@ -26,16 +26,11 @@ public class Practice3 {
 
     }
 
-    public void sum(int i1, int i2) {
-        System.out.println(i1 + i2);
-    }
-    public void sum(int[] numbers) {
-        System.out.println(numbers);
-    }
+
 
 // create a method that will take arraylist as a a parameter of fruits
 // this method will print out fruits if it has 5 or more letters
-    public static void printFruits(ArrayList<String> fruits){
+    public static void printFruits(ArrayList<String> fruits ){
 
         for (String fruit: fruits){
             if (fruit.length()>=5){
@@ -52,7 +47,7 @@ public class Practice3 {
                 fruits.remove(i);
             }
         }
-        System.out.println(fruits);
+        System.out.println("i am the last one "+fruits);
     }
 
 }

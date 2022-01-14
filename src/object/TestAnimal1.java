@@ -4,10 +4,11 @@ public class TestAnimal1 {
     public static void main(String[] args) {
 
         Animal duck = new Animal();
-
+duck.name="bata";
+duck.sleep();
         duck.info();
-        System.out.println(duck.name);
-        System.out.println(duck.age);
+       System.out.println(duck.name);
+       System.out.println(duck.age);
 
         Animal bird = new Animal();
         bird.name = "Woody";

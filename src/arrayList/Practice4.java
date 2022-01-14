@@ -26,7 +26,7 @@ public class Practice4 {
         System.out.println(ids);
 
         ids.clear();
-        System.out.println(ids);
+        System.out.println("======"+ids);
         System.out.println(ids.size());
         System.out.println(ids.isEmpty());
 

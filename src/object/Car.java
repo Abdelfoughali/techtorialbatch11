@@ -4,7 +4,8 @@ public class Car {
 
     String brand;
 
-    public Car(String brand) {
+    public Car(String brand) {  // Constructor
+
         this.brand = brand;
     }
 
@@ -16,6 +17,7 @@ public class Car {
         System.out.println(brand + " Moving to " + dest);
         return true;
     }
+
 
     @Override
     public String toString() {

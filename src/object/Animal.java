@@ -28,7 +28,7 @@ public class Animal {
     }
     public void info(){
 
-        System.out.println("Name is: "+name+ " Age is: "+ age+" Color is: "+ color+" Breed is: "+breed+ " Energy is: "+ energy);
+        System.out.println("this is the first print "+ "Name is: "+name+ " Age is: "+ age+" Color is: "+ color+" Breed is: "+breed+ " Energy is: "+ energy);
     }
 
 }
