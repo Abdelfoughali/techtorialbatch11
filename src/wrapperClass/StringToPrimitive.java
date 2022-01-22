@@ -7,16 +7,16 @@ public class StringToPrimitive {
 
         System.out.println(str + 10);// 1210
 
-        int number = Integer.parseInt(str); // Unboxing
+        int number = Integer.parseInt(str); // Unboxing for the inboxing process u have to use the parse method
         System.out.println(number + 10); // 22
         Integer number1 = Integer.parseInt(str);
-
+        System.out.println(number1);
         System.out.println(number1.equals("12"));
         System.out.println(number == 12);
 
         // "128"
 
-        byte by = Byte.parseByte("121");
+        byte by = Byte.parseByte("121");  // the parse method it allows you to go from string to Int
         System.out.println(by);
 
      //  int number2 = Integer.parseInt("128GB");// NumberFormatException
@@ -47,6 +47,17 @@ public class StringToPrimitive {
         System.out.println(db1);
 //        Integer nm=Integer.parseInt("12.34");
 //        System.out.println(nm);
+
+        String jafar ="12345678";
+        Integer sarah =Integer.parseInt(jafar);
+        System.out.println(sarah);
+int kahina= new Integer(sarah);
+        System.out.println(kahina);
+
+        boolean jef=kahina==sarah;
+        boolean jeff =sarah.equals(kahina);
+        System.out.println(jef);
+        System.out.println(jeff);
 
     }
 }

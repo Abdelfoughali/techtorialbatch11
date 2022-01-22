@@ -2,10 +2,11 @@ package wrapperClass;
 
 public class StringToWrapper {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { //valueOf() returns an Integer
+        // object while Integer. parseInt() returns a primitive int
 
 
-        String color = "20";
+        String color = "20";     // there is valueOf and parse method using for the wrapper classes
 
         Integer number = Integer.valueOf(color);
         System.out.println(number + 30); //

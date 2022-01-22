@@ -1,4 +1,4 @@
-package set;
+package setMap;
 
 import java.util.HashSet;
 import java.util.LinkedHashSet;
@@ -15,7 +15,7 @@ public class Practice1 {
         colorsHash.add("Blue");            colorLinked.add("Blue");          colorsTree.add("Blue");
         colorsHash.add("purple");          colorLinked.add("purple");        colorsTree.add("purple");
         colorsHash.add("Red");             colorLinked.add("Red");           colorsTree.add("Red");
-colorsHash.add(null);                     colorLinked.add(null);           //  colorsTree.add(null);
+  colorsHash.add(null);                     colorLinked.add(null);           //  colorsTree.add(null);
 
         System.out.println("this is the print 1 "+colorsHash);   // no order
         System.out.println("this is the print 2 "+colorLinked);   // insertion order

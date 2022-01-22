@@ -19,13 +19,14 @@ public class Practice {
         // static blocks run before evrything in the class   take priority
         // initialize static variables
         color ="orange";
+
         System.out.println("this is STATIC blocks");
     }
 
     public static void main(String[] args) {
 Practice pr =new Practice();
-        Practice pr1 =new Practice();
-        Practice pr2 = new Practice();
+      //  Practice pr1 =new Practice();
+       // Practice pr2 = new Practice();
 
 
     }

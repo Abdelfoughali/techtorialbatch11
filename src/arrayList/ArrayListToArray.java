@@ -10,6 +10,7 @@ public class ArrayListToArray {
         names.add("diana");
         names.add("aizat");
         names.add("samir");
+
         //System.out.println(names);
         // convert this arrayLsit to array
         Object [] arrarNames = names.toArray();

@@ -6,7 +6,7 @@ public class Practice1 {
 
         byte b = 2;
 
-        Byte bt = new Byte(b);
+        Byte bt = new Byte(b);    // the wrapper classes  byte b=2;   Byte bt =new Byte(bt);
         System.out.println(bt);
 
         short s = 7;
